@@ -1,0 +1,5 @@
+requests
+redis
+spacy
+python-dotenv
+geopy
