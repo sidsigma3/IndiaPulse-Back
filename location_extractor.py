@@ -16,4 +16,6 @@ def extract_locations(text: str) -> list[str]:
         if ent.label_ in ["GPE", "LOC"]:
             locations.add(ent.text)
 
+            
+
     return list(locations)
