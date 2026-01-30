@@ -107,6 +107,4 @@ def fetch_news():
 
 
 if __name__ == "__main__":
-    while True:
-        fetch_news()
-        time.sleep(1800) 
+    fetch_news()
